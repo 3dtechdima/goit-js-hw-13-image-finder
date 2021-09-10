@@ -14,7 +14,7 @@ async function nextPage() {
 
 const getImg = inputTextImg => {
   return fetch(
-    `https://pixabay.com/api/?image_type=photo&orientation=horizontal&q=${inputTextImg}&page=${nextPage}&per_page=12&key=23310920-d081bc49b0dbcec0d7d3e38c7`,
+    `https://pixabay.com/api/?image_type=photo&orientation=horizontal&q=${inputTextImg}&page=${counterValue}&per_page=12&key=23310920-d081bc49b0dbcec0d7d3e38c7`,
   )
     .then(response => response.json())
     .then(data => {
@@ -31,6 +31,7 @@ async function getData() {
 async function selectAnswer(e) {
   e.preventDefault();
   userValue = e.currentTarget.elements.query.value;
+  // console.log(userValue);
   if (!userValue) {
     return;
   }
