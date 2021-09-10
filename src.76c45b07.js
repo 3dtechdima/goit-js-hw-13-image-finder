@@ -9,4 +9,4 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"../templates/img-card.hbs":"zMC9"}],"Focm":[function(require,module,exports) {
 "use strict";require("./js/countries-json_all");
 },{"./js/countries-json_all":"pYo7"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-12-countries/src.76c45b07.js.map
+//# sourceMappingURL=/goit-js-hw-13-image-finder/src.76c45b07.js.map
