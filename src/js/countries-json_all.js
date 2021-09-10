@@ -2,7 +2,6 @@ import country from '../templates/img-card.hbs';
 const form = document.querySelector('.search-form');
 const nextImg = document.querySelector('.next-page-btn');
 const outputParametiers = document.querySelector('.gallery');
-// console.log(nextImg);
 
 let userValue = '';
 let counterValue = 1;
@@ -31,7 +30,7 @@ async function getData() {
 
 async function selectAnswer(e) {
   e.preventDefault();
-  const userValue = e.currentTarget.elements.query.value;
+  userValue = e.currentTarget.elements.query.value;
   if (!userValue) {
     return;
   }
