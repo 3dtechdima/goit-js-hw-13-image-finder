@@ -1,0 +1,59 @@
+ul {
+  margin-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+button {
+  border: 3px solid rgb(181, 181, 184);
+  border-radius: 5px;
+  background-color: rgb(189, 189, 195);
+}
+
+button:hover,
+button:focus {
+  background-color: rgb(161, 160, 160);
+  border: 3px solid rgb(152, 152, 153);
+}
+
+li {
+  margin-top: 50px;
+  list-style: none;
+}
+
+.stats {
+  display: flex;
+}
+
+.material-icons {
+  margin-right: 5px;
+}
+
+.stats-item {
+  margin: 0 auto;
+}
+
+.countriesInput {
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+body {
+  background-color: rgba(91, 94, 98, 0.075);
+}
+
+form {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.form-btn {
+  margin-left: 20px;
+}
+
+.next-page-btn {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
